@@ -35,6 +35,7 @@ El flujo de datos sigue una arquitectura ETL:
 ##**--Resultados--**
 ##1.**Orquestación del flujo**
 Se observa el grafo de dependencias en Airflow. El proceso inicia y se bifurca en dos tareas paralelas: carga de reporte diario y precios actuales.
+
 <img width="626" height="531" alt="image" src="https://github.com/user-attachments/assets/0d171cb6-643b-4604-b259-342fb3d7a0fe" />
 
 ##2.**Evidencia de ejecución**
