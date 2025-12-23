@@ -31,7 +31,7 @@ El flujo de datos sigue una arquitectura ETL:
 ├── docker-compose.yaml        # Orquestación de servicios y redes
 ├── requirements.txt           # Dependencias de Python
 └── README.md                  # Documentación del proyecto
-
+```
 ##**--Resultados--**
 ##1.**Orquestación del flujo**
 Se observa el grafo de dependencias en Airflow. El proceso inicia y se bifurca en dos tareas paralelas: carga de reporte diario y precios actuales.
