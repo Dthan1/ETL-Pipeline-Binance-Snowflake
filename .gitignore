@@ -1,0 +1,13 @@
+#Archivos de configuración y credenciales
+.env
+
+#Archivos basura/temporales
+logs/
+datos/
+__pycache__/
+*.pyc
+.DS_Store
+
+#Carpetas de entornos virtuales
+venv/
+env/
